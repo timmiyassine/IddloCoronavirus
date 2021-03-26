@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Worldometers info</title>
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <script src="https://kit.fontawesome.com/7dc3015a44.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+
+  <body>
+    
+
+    <!-- START NAV -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#">
+            <img src="images/worldometer.png"id="img" alt="Logo">
+            <!-- <h2> <strong>Worldometers</strong> </h2> -->
+          </a>
+          <span class="navbar-burger burger" data-target="navbarMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenu" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item">
+              Coronavirus
+            </a>
+            <a class="navbar-item">
+              Population
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- END NAV -->
+
+    
+    <!-- page admin -->
+    
+    <div class="container">
+      <div class="columns is-desktop">
+          <div class="column ">
+              <section class="hero welcome is-small">
+                  <div class="hero-body">
+                      <div class="container">
+                          <h1 class="title">
+                              COVID-19 CORONAVIRUS PANDEMIC
+                          </h1>
+                          <h2 class="subtitle">
+                              Last updated: March 15, 2021, 09:39 GMT
+                          </h2>
+                      </div>
+                  </div>
+              </section>
+              <div class="container">
+                  
+              </div>
+              <section class="info-tiles">
+                <div class="tile is-ancestor has-text-centered">
+                    <div class="tile is-parent">
+                        <article class="tile is-child box">
+                            <p class="title">Coronavirus Cases</p>
+
+                            <p class="subtitle1">120,539,415</p>
+                        </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child box">
+                            <p class="title">Deaths</p>
+                            <p class="subtitle2">2,667,169</p>
+                        </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child box">
+                            <p class="title">Recovered</p>
+                            <p class="subtitle3">97,069,725</p>
+                        </article>
+                    </div>
+                </div>
+              </section>
+              
+          </div>
+      </div>
+  </div>
+    <!-- end page admin -->
+    <!-- page band partie des graphs  -->
+
+    <section class="section">
+      <div class="container has-text-centered">
+
+          <div class="tile is-ancestor">
+              <div class="tile is-parent">
+                  <article class="tile is-child box">
+                    <p class="title">
+                      ACTIVE CASES
+                    </p>
+                      <br>
+                      <p class="title">20,738,299</p>
+                      <p class="subtitle">Currently Infected Patients</p>
+                      <div class="columns">
+                          <div class="column">
+                              <p class="title" style="color: #8080FF;">20,649,822 (99.6%)</p>
+                              <p class="subtitle">in Mild Condition</p>
+                          </div>
+                          <div class="column">
+                              <p class="title" style="color: #e61a1a;">88,477 (0.4%)</p>
+                              <p class="subtitle">Serious or Critical</p>
+                          </div>
+                          
+                      </div>
+                      <!-- <div>
+                          <div class="title">20,649,822 (99.6%)</div>
+                          <div class="subtitle">in Mild Condition</div>
+                          <div class="title">20,649,822 (99.6%)</div>
+                          <div class="subtitle">Serious or Critical</div>
+                      </div> -->
+                      <!-- <p class="title">20,649,822 (99.6%)</p>
+                      <p class="subtitle">in Mild Condition</p>
+                      <p class="title">88,477 (0.4%)</p>
+                      <p class="subtitle">Serious or Critical</p> -->
+                      <a class="button">Show Graph</a>
+                  </article>
+              </div>
+              <div class="tile is-parent">
+                  <article class="tile is-child box">
+                    <p class="title">
+                      CLOSED CASES
+                    </p>
+                      <br>
+                      <p class="title">100,217,693</p>
+                      <p class="subtitle">Cases which had an outcome</p>
+                      <div class="columns">
+                          <div class="column">
+                              <p class="title" style="color: #20c21a;">97,541,899 (97%)</p>
+                              <p class="subtitle">Recovered / Discharged</p>
+                          </div>
+                          <div class="column">
+                              <p class="title">2,675,794 (3%)</p>
+                              <p class="subtitle">Deaths</p>
+                          </div>
+                          
+                      </div>
+                      <!-- <div>
+                          <div class="title">20,649,822 (99.6%)</div>
+                          <div class="subtitle">in Mild Condition</div>
+                          <div class="title">20,649,822 (99.6%)</div>
+                          <div class="subtitle">Serious or Critical</div>
+                      </div> -->
+                      <!-- <p class="title">20,649,822 (99.6%)</p>
+                      <p class="subtitle">in Mild Condition</p>
+                      <p class="title">88,477 (0.4%)</p>
+                      <p class="subtitle">Serious or Critical</p> -->
+                      <a class="button">Show Graph</a>
+                  </article>
+              </div>
+          </div>
+          
+          <div class="tile is-ancestor">
+              <div class="tile is-parent">
+                  <article class="tile is-child box">
+                    <div class="tabs is-centered is-large">
+                      <ul>
+                        <li class="is-active">
+                          <a>
+                            <span>Daily</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a>
+                            <span class="tabsspan">Linear</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a>
+                            <span class="tabsspan">Logarithmic</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                      <p class="title">Daily New Cases</p>
+                      <p class="subtitle">Cases per Day <br> as of 9:46 GMT+1</p>
+                      <figure class="image">
+                          <img src="images/chart1.PNG">
+                      </figure>
+                      <br>
+                      <label class="checkbox">
+                          <input type="checkbox">
+                          7-days moving average
+                      </label>
+                  </article>
+              </div>
+              <div class="tile is-parent">
+                  <article class="tile is-child box">
+                    <div class="tabs is-centered is-large">
+                      <ul>
+                        <li class="is-active">
+                          <a>
+                            <span>Daily</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a>
+                            <span class="tabsspan">Linear</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a>
+                            <span class="tabsspan">Logarithmic</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                      <p class="title">Daily Deaths</p>
+                      <p class="subtitle">Deaths per Day <br> Data as of 9:46 GMT+1</p>
+                      <figure class="image">
+                          <img src="images/chart1.PNG">
+                      </figure>
+                      <br>
+                      <label class="checkbox">
+                          <input type="checkbox">
+                          7-days moving average
+                      </label>
+                  </article>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  <section class="section">
+    <div class="container">
+      <div class="content is-medium">
+        <h1>Reported Cases and Deaths by Country or Territory</h1>
+        <p>The <strong>coronavirus</strong> COVID-19 is affecting <strong>219 countries and 
+          territories. The day is reset after midnight GMT+0.</strong> 
+          The list of countries and their regional classification is based on 
+          the <a href="">United Nations Geoscheme.</a> Sources are 
+          <a href="">provided under "Latest News.</a> 
+          <strong> <a href="">Learn more about Worldometer's COVID-19 data</a></strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    
+    <div class="container">
+      <div class="columns">
+        <div class="column is-one-fifth">
+          <div class="dropdown is-hoverable">
+            <div class="dropdown-trigger">
+              <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
+                <span>Columns</span>
+                <span class="icon is-small">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+              <div class="dropdown-content">
+                <a href="#" class="dropdown-item">
+                  Total Cases
+                </a>
+                <a href="#" class="dropdown-item">
+                  New Cases
+                </a>
+                <a href="#" class="dropdown-item">
+                  Total Deaths
+                </a>
+                <a href="#" class="dropdown-item">
+                  New Deaths
+                </a>
+                <a href="#" class="dropdown-item">
+                  Total Recovered
+                </a>
+                <a href="#" class="dropdown-item">
+                  New Recovered
+                </a>
+                <a href="#" class="dropdown-item">
+                  <label class="checkbox">
+                    <input type="checkbox" checked>
+                    Active Cases
+                </label>
+                </a>
+                <hr class="dropdown-divider">
+                <a href="#" class="dropdown-item">
+                  More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column auto">
+          <div class="tabs">
+            <ul>
+              <li class="is-active">
+                <a>
+                  <span>Now</span>
+                </a>
+              </li>
+              <li>
+                <a>
+                  <span class="tabsspan">Yesterday</span>
+                </a>
+              </li>
+              <li>
+                <a>
+                  <span class="tabsspan">2 Days Ago</span>
+                </a>
+              </li>
+            </ul>
+            
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <input class="input" type="search" placeholder="Search forum...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tabs is-box">
+        <ul>
+          <li class="is-active">
+            <a>
+              <span>All</span>
+            </a>
+          </li>
+          <li>
+            <a>
+              <span>Europe</span>
+            </a>
+          </li>
+          <li>
+            <a>
+              <span>North America</span>
+            </a>
+          </li>
+          <li>
+            <a>
+              <span>Asia</span>
+            </a>
+          </li>
+          <li>
+            <a>
+              <span>South America</span>
+            </a>
+          </li>
+          <li>
+            <a>
+              <span>Africa</span>
+            </a>
+          </li>
+          <li>
+            <a>
+              <span>Oceania</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>  
+    <div class="container"> 
+        <!-- table  -->
+        <table class="table is-bordered" style="overflow-y:scroll;">
+          <thead class="">
+            <tr class="">
+              <th><abbr title="">#</abbr></th>
+              <th title="Country, Other">Country, Other</th>
+              <th title="test2">Total Cases</th>
+              <th title="test3">New Cases</th>
+              <th title="test4">Total Deaths</th>
+              <th title="test">New Deaths</th>
+              <th title="test">Total Recovered</th>
+              <th title="test">New Recovered</th>
+              <th title="test">Active Cases</th>
+              <th title="test">Serious, Critical</th>
+              <th title="test">Total Cases/1M pop</th>
+              <th title="test">Deaths/1M pop</th>
+              <th title="test">Total Tests</th>
+              <!-- <th title="test">Tests/ 1M pop</th>
+              <th title="test">Population</th>
+              <th title="test">1 Case every X ppl</th>
+              <th title="test">1 Death every X ppl</th>
+              <th title="test">1 Test every X ppl</th>-->
+            </tr>
+          </thead>
+          <tfoot>
+            <tr>
+              <th><abbr title=""></abbr></th>
+              <th title="test1">Total:</th>
+              <th title="test2">125,890,908</th>
+              <th title="test3">+466,969</th>
+              <th title="test4">2,762,680</th>
+              <th title="test">+6,445	</th>
+              <th title="test">101,580,628</th>
+              <th title="test">+300,807</th>
+              <th title="test">21,547,600</th>
+              <th title="test">92,071</th>
+              <th title="test">16,150.6</th>
+              <th title="test">354.4</th>
+              <th title="test"></th>
+              <!-- <th title="test"></th>
+              <th title="test"></th>
+              <th title="test"></th>
+              <th title="test"></th>
+              <th title="test"></th> -->
+            </tr>
+          </tfoot>
+          <tbody>
+            <tr>
+              <th>1</th>
+              <td><a href="" title="" class=""><strong>USA</strong></a></td>
+              <td>30,713,092</td>
+              <td class="newCases">+8,800</td>
+              <td>558,514</td>
+              <td class="newDeaths">+92</td>
+              <td>23,133,605</td>
+              <td class="newRecovered">+726</td>
+              <td>7,020,973</td>
+              <td>8,623</td>
+              <td>92,394</td>
+              <td>1,680</td>
+              <td>393,989,283</td>
+              <!-- <td>12</td>
+              <td>3</td>
+              <td>68</td>
+              <td>36</td>
+              <td>+32</td> -->
+            <!-- <tr class="is-selected"> -->
+            <tr class="">
+              <th>2</th>
+              <td><a href="" title="" class=""><strong>India</strong></a></td>
+              <td>38</td>
+              <td class="newCases">+19</td>
+              <td>9</td>
+              <td class="newDeaths">+1095</td>
+              <td>71</td>
+              <td class="newRecovered">+841</td>
+              <td>+30</td>
+              <td>66</td>
+              <td>38</td>
+              <td>23</td>
+              <td>12</td>
+              <!-- <td>3</td>
+              <td>68</td>
+              <td>36</td>
+              <td>+32</td>
+              <td>81</td> -->
+            </tr>
+            <tr class="">
+              <th>3</th>
+              <td><a href="" title="" class=""><strong>Brazil</strong></a></td>
+              <td>38</td>
+              <td></td>
+              <td>9</td>
+              <td class="newDeaths">+1095</td>
+              <td>71</td>
+              <td></td>
+              <td>+30</td>
+              <td>66</td>
+              <td>38</td>
+              <td>23</td>
+              <td>12</td>
+              <!-- <td>3</td>
+              <td>68</td>
+              <td>36</td>
+              <td>+32</td>
+              <td>81</td> -->
+            </tr>
+            <tr class="">
+              <th>4</th>
+              <td><a href="" title="" class=""><strong>Russia</strong></a></td>
+              <td>38</td>
+              <td></td>
+              <td>9</td>
+              <td></td>
+              <td>71</td>
+              <td>41</td>
+              <td>+30</td>
+              <td>66</td>
+              <td>38</td>
+              <td>23</td>
+              <td>12</td>
+              <!-- <td>3</td>
+              <td>68</td>
+              <td>36</td>
+              <td>+32</td>
+              <td>81</td> -->
+            </tr>
+            <tr class="">
+              <th>5</th>
+              <td><a href="" title="" class=""><strong>UK</strong></a></td>
+              <td>38</td>
+              <td class="newCases">+25619</td>
+              <td>9</td>
+              <td></td>
+              <td>71</td>
+              <td>41</td>
+              <td>+30</td>
+              <td>66</td>
+              <td>38</td>
+              <td>23</td>
+              <td>12</td>
+              <!-- <td>3</td>
+              <td>68</td>
+              <td>36</td>
+              <td>+32</td>
+              <td>81</td> -->
+            </tr>
+            <tr class="">
+              <th>6</th>
+              <td><a href="" title="" class=""><strong>Spain</strong></a></td>
+              <td>38</td>
+              <td></td>
+              <td>9</td>
+              <td class="newDeaths">+1095</td>
+              <td>71</td>
+              <td>41</td>
+              <td>+30</td>
+              <td>66</td>
+              <td>38</td>
+              <td>23</td>
+              <td>12</td>
+              <!-- <td>3</td>
+              <td>68</td>
+              <td>36</td>
+              <td>+32</td>
+              <td>81</td> -->
+            </tr>
+            <tr class="">
+              <th>7</th>
+              <td><a href="" title="" class=""><strong>Turkey</strong></a></td>
+              <td>38</td>
+              <td class="newCases">+19</td>
+              <td>9</td>
+              <td></td>
+              <td>71</td>
+              <td>41</td>
+              <td>+30</td>
+              <td>66</td>
+              <td>38</td>
+              <td>23</td>
+              <td>12</td>
+              <!-- <td>3</td>
+              <td>68</td>
+              <td>36</td>
+              <td>+32</td>
+              <td>81</td> -->
+            </tr>
+            <tr class="">
+              <th>8</th>
+              <td><a href="" title="" class=""><strong>Italy</strong></a></td>
+              <td>38</td>
+              <td></td>
+              <td>9</td>
+              <td class="newDeaths">+1095</td>
+              <td>71</td>
+              <td>41</td>
+              <td>+30</td>
+              <td>66</td>
+              <td>38</td>
+              <td>23</td>
+              <td>12</td>
+              <!-- <td>3</td>
+              <td>68</td>
+              <td>36</td>
+              <td>+32</td>
+              <td>81</td> -->
+            </tr>
+            <tr class="">
+              <th>9</th>
+              <td><a href="" title="" class=""><strong>Germany</strong></a></td>
+              <td>38</td>
+              <td></td>
+              <td>9</td>
+              <td class="newDeaths">+1095</td>
+              <td>71</td>
+              <td>41</td>
+              <td>+30</td>
+              <td>66</td>
+              <td>38</td>
+              <td>23</td>
+              <td>12</td>
+              <!-- <td>3</td>
+              <td>68</td>
+              <td>36</td>
+              <td>+32</td>
+              <td>81</td> -->
+            </tr>
+            <tr class="">
+              <th>10</th>
+              <td><a href="" title="" class=""><strong>Colombia</strong></a></td>
+              <td>38</td>
+              <td></td>
+              <td>9</td>
+              <td></td>
+              <td>71</td>
+              <td>41</td>
+              <td>+30</td>
+              <td>66</td>
+              <td>38</td>
+              <td>23</td>
+              <td>12</td>
+              <!-- <td>3</td>
+              <td>68</td>
+              <td>36</td>
+              <td>+32</td>
+              <td>81</td> -->
+            </tr>
+          </tbody>
+        </table>
+        <!-- end table -->
+    </div>  
+
+
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="content">
+        <h1 class="button is-info is-light is-medium">Latest News</h1>
+        <br>
+        <span class="icon-text has-text-info">
+          <span>March 25 (GMT) (Updates)</span>
+          <span class="icon">
+            <i class="fa fa-chevron-circle-down"></i>
+          </span>
+        </span>
+      <div class="columns">
+        <div class="column">
+          <div class=""> <!--class="notification is-primary is primary pour backgroud d paragraphe -->
+            <ul class="is-size-5">
+              <li>817 new cases and 9 new deaths in <a href=""><strong>Morocco </strong></a>[<a>source</a>]</li>
+              <li>5 new cases in <a href=""><strong>Chad </strong></a>[<a>source</a>]</li>
+              <li>150 new cases and 11 new deaths in <a href=""><strong>Rwanda </strong></a>[<a>source</a>]</li>
+              <li>11 new cases in Saint <a href=""><strong>Germany </strong></a>[<a>source</a>]</li>
+          </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class=""> <!--class="notification is-primary is primary pour backgroud d paragraphe -->
+            <ul class="is-size-5">
+              <li>511 new cases and 2 new deaths in <a href=""><strong>Ecuador </strong></a>[<a>source</a>]</li>
+              <li>12 new cases in <a href=""><strong>the United States </strong></a>[<a>source</a>]</li>
+              <li>78 new cases in <a href=""><strong>Tunisia </strong></a>[<a>source</a>]</li>
+              <li><a href="">For more informations [...]</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <span class="icon-text has-text-info">
+        <span>March 24</span>
+        <span class="icon">
+          <i class="fa fa-chevron-circle-down"></i>
+        </span>
+      </span>
+      <br>
+      <span class="icon-text has-text-info">
+        <span>March 23</span>
+        <span class="icon">
+          <i class="fa fa-chevron-circle-down"></i>
+        </span>
+      </span>
+      <br>
+      <span class="icon-text has-text-info">
+        <span>March 14</span>
+        <span class="icon">
+          <i class="fa fa-chevron-circle-down"></i>
+        </span>
+      </span>
+      <br>
+      <span class="icon-text has-text-info">
+        <span>May 8</span>
+        <span class="icon">
+          <i class="fa fa-chevron-circle-down"></i>
+        </span>
+      </span>
+      <br>
+      <span class="icon-text has-text-info">
+        <span>May 1</span>
+        <span class="icon">
+          <i class="fa fa-chevron-circle-down"></i>
+        </span>
+      </span>
+      <br>
+      <span class="icon-text has-text-info">
+        <span>March 23</span>
+        <span class="icon">
+          <i class="fa fa-chevron-circle-down"></i>
+        </span>
+      </span>
+      <br>
+      <span class="icon-text has-text-info">
+        <span>April 27</span>
+        <span class="icon">
+          <i class="fa fa-chevron-circle-down"></i>
+        </span>
+      </span>
+    </div>
+    </div>
+  </section>
+
+
+  
+    <!-- end page band graphs -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <div class="soc">
+            <a href="#"><i class="fa fa-github-alt fa-lg" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-youtube fa-lg" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+          </div>
+          <p>
+            <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>.
+            The source code is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. <br>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    
+
+    
+  </body>
+
+</html>
